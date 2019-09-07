@@ -1,4 +1,10 @@
 ============
+Aanpassingen
+============
+
+- Python 2 verwijderd
+
+============
 Python Koans
 ============
 
