@@ -5,6 +5,56 @@ Aanpassingen
 - Python 2 verwijderd
 
 ============
+Extra uitleg
+============
+
+Vooraf
+------
+
+Enige basis is aangewezen vooraleer met de koans te beginnen, b.v.
+
+- het schrijven van een eenvoudig Python-script met variabelen en functies
+- het analyseren van een Python-programma met classes
+- het werken met de interpreter om basis-dingen te begrijpen over types, zoals:
+    - `type` (om te controleren van welk type een variabele of constante is)
+    - `isinstance` (om te controleren of een variabele of constante van een bepaald type is)
+    - `is` (om te controleren of het werkelijk om hetzelfde object gaat en niet enkel om dezelfde inhoud)
+
+Daarnaast is het voor sommige koans nodig om deze dingen te begrijpen:
+
+- escape sequences (zoals `\n`, `\r`, ...)
+- regular expressions (regex)
+
+Koans
+-----
+
+In `koans.txt` kan je de volgorde van de verschillende onderwerpen zien.
+
+Een overzicht:
+
+- `about_asserts`: eigenlijk leer je hier met de koan-werkwijze kennismaken, die hevig steunt op *assertions*
+- `about_strings`: alle verschillende manieren om strings voor te stellen
+- `about_none`: hoe `None` werkt
+- `about_lists`: om lijsten te gebruiken (initialiseren, index-ranges, de `range`-functie, ...)
+- `about_list_assignments`: om o.a. meerdere variabelen te gebruiken in een toewijzing met een lijst
+- `about_dictionaries`: hoe dictionaries te maken en de keys en values te gebruiken
+- `about_string_manipulation`: string-methods zoals `join`, `split`, ... (Hoewel de nieuwe manier van format strings met `f"Dit is een {variable}"` nog niet aan bod komt!)
+- `about_tuples`: over tuples en dat ze *immutable* (onveranderbaar) zijn, tuples met 1 element komen b.v. ook voor in de `sqlite3`-module voor het doorgeven van sql-argumenten
+- `about_methods`: 
+
+
+
+
+
+Met Visual Studio code
+----------------------
+
+- Open de map `python3` in VSCode.
+- Gebruik b.v. de ingebouwde terminal van VSCode
+- Gebruik liefst `sniffer` (zie instructies onderaan) zodat je niet manueel de tests moet runnen
+
+
+============
 Python Koans
 ============
 
